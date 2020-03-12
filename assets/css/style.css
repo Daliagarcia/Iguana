@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  margin: 0;
+  background: #000000;
+  text-align: center;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+}
+
+h1{
+  background: #000000;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.iguana_descripcion{
+  width: 25%;
+}
+
+.iguanagrande{
+  width: 100%;
+}
+
+.desc-section{
+  text-align: left;
+  background: #000000;
+  color: #ffffff;
+  padding: 30px;
+}
+
+p{
+  font-weight: 300;
+}
+
+.icons-section{
+  color: white;
+  background: #1E1A13;
+  margin: 0;
+  padding: 4.6875em;
+}
+
+article{
+  display: inline-block;
+  padding: 0em 4.6em 0em 4.6em;
+}
+
+.icons-section i{
+  color: white;
+}
+
+h2{
+  font-weight: 300;
+  margin-bottom: 2.9em;
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.fotos img{
+  width: 15%;
+}
+
+footer{
+background: #1E1A13;
+padding: 1.5em;
+font-size: 1.25em;
+font-weight: 300;
+}
+
+
+
+/* Lo del profe */
+.header-section{
+  width: 100vw;
+  background-size:cover;
+
+}
+
+header img{
+  width: 100%;
+}
+
+/* Inicio de des-section */
+.desc-section{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+.desc-section-contenedor{
+ padding: 4.75em 9.3em 4.75em 9.3em;
+  vertical-align: middle;
+  background: #000000;
+}
+
+.desc-section-contenedor-parrafo{
+  text-align: left;
+  float: left;
+  width: 29.7em;
+  padding-right: 6.6em;
+}
+
+.desc-section-contenedor-img{
+  height: auto;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.desc-section-contenedor-img img{
+    width: 399px;
+    height: 237px;
+
+}
+
+/* fin de des-section */
+.fotos-iguana{
+  padding: 4.5em;
+}
+
+.fotos-iguana img{
+  height: 202px;
+  width: 316px;
+  max-width: 100%;
+  margin: 0.5em;
+}
